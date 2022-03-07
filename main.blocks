@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="6j|E^hGoQ3Fy6.zNI(E^">MotorSpeed</variable></variables><block type="device_forever" id="J`^E0HhC(5p}[l5JNY34" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="xNBX*SK5|a7m1DVB!gZa"><field name="LEDS">`
+        # # # # # 
+        # . . . . 
+        # # # . . 
+        # . . . . 
+        # # # # #
+        `</field><next><block type="motion_drive_straight" id="k2H7`a0zmNs5^+{GJ|Mz"><value name="speed"><shadow type="math_number_minmax"><mutation min="-100" max="100" label="Speed" precision="0"/><field name="SLIDER">0</field></shadow><block type="variables_get" id="*HL(~YizW]e]v^4G)6(F"><field name="VAR" id="6j|E^hGoQ3Fy6.zNI(E^">MotorSpeed</field></block></value><next><block type="device_pause" id="Oj[wd80(Cr*%fV~AD^9~"><value name="pause"><shadow type="timePicker" id="78;Bq+zKSyyV~@C{S)}#"><field name="ms">2000</field></shadow></value><next><block type="motion_stop" id="QU)]?_|Sc^%t}kuqjksM"/></next></block></next></block></next></block></statement></block><block type="pxt-on-start" id="vbG}{[c%$h8pS57h,-t*" x="433" y="275"><statement name="HANDLER"><block type="variables_set" id="}is)]T?/,b_d-n09y]ru"><field name="VAR" id="6j|E^hGoQ3Fy6.zNI(E^">MotorSpeed</field><value name="VALUE"><shadow type="math_number" id="K2bss)o)O/@}UZO*/M_)"><field name="NUM">100</field></shadow></value></block></statement></block></xml>
